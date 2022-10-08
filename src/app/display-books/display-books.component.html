@@ -1,0 +1,34 @@
+<!-- <p>Process Is Going On...</p> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table>
+           <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Image</th>
+            <th>Available/Not Available</th>  
+           </tr> 
+            <tr *ngFor="let each of book; let i=index">
+            <td>{{each.name}}</td>
+            <td>{{each.author}}</td>
+            <td><img src="{{each.image}}" alt="" height="40px" class="img-rounded"></td>
+            <td><a (click)="checkAvailablity(i)">{{each.Availablity}}</a></td>
+           </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+
+
+
+
+

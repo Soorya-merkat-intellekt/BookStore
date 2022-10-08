@@ -1,0 +1,19 @@
+<!-- <p>login works!</p> -->
+<div class="row">
+    <div class="col-md-5">
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email</label> 
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label> 
+                <input type="password" class="form-control">
+            </div>
+            <div>
+                <!-- <button type="submit" class="btn btn-primary">{{isLogin ? "Login" : "signUp"}}</button> -->
+                <button type="submit" class="btn btn-info" style="float:right ; " (click)="onSwitch()">{{isLogin ? "signUp" : "Login"}}</button>
+            </div>
+        </form>
+    </div>
+</div>

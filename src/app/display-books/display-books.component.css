@@ -1,0 +1,26 @@
+table{
+    width: 50%;
+    justify-content: center;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: Elaphant;
+    margin-top: 5%;margin-bottom: 5%;
+    margin-left:auto;margin-right:auto;
+    border-width: 5px
+}
+th,td{
+    width: 100;
+    border: 2px solid black;
+    border-width: 5px
+}
+tr,th,td{
+    width: fit-content;
+    padding: 10px;
+    justify-content: center
+}
+td{
+    margin-left:auto;margin-right:auto;   
+}

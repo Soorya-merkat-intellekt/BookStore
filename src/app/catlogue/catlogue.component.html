@@ -1,0 +1,14 @@
+<input type="text" placeholder="Enter Book Name" #name>
+<button (click)="getBookDetails(name)">Search</button>
+<div>
+    Author Name : {{authorname}}
+</div>
+<div>
+    Price : {{amount}}
+</div>
+<div>
+    Snippet : {{textSnippet}}
+</div>
+<div>
+    <img src="{{bookImage}}" alt="">
+</div>

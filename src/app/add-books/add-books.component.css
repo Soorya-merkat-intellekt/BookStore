@@ -1,0 +1,36 @@
+/* body{
+    background-color: rgb(119, 184, 209);
+} */
+
+table{
+    width: 35%;
+    justify-content: center;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: Elaphant;
+    margin-top: 15%;margin-bottom: 15%;
+    margin-left:auto;margin-right:auto;
+    border-style: ridge;
+    border-width: 5px;
+}
+th{
+    width: 100%;
+     border: 2px solid black;
+}
+tr,th,td{
+    width: fit-content;
+    padding: 10px;
+    justify-content: center
+}
+td{
+    margin-left:auto;margin-right:auto;   
+}
+th:hover{
+    background: rgb(198, 231, 241);
+}
+a{
+    padding-bottom: 50%;
+}
